@@ -1,0 +1,14 @@
+{
+  "name": "ldap_authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ldap-authentication": "^2.2.9",
+    "ldapjs": "^2.3.1"
+  }
+}
