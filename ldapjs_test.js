@@ -2,8 +2,7 @@ const ldap = require('ldapjs')
 
 function authenticateDN(username, password) {
     let client = ldap.createClient({
-        url: 'ldap://127.0.0.1:10389',
-        
+        url: 'ldap://127.0.0.1:10389'
     })
 
     client.bind(username, password, function (err) {

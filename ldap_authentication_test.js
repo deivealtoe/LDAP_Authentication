@@ -19,7 +19,7 @@ async function auth() {
 
     user = await authenticate(options)
 
-    console.log('Usuário conectado!')
+    console.log(`Usuário conectado!`)
     console.log(`dn: ${user.dn}`)
     console.log(`cn: ${user.cn}`)
     console.log(`uid: ${user.uid}`)
